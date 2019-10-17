@@ -1,0 +1,5 @@
+alias gs="git status"
+alias pp="pwd|pbcopy"
+alias ga="git add"
+alias gc="git commit"
+alias gp="git push"
