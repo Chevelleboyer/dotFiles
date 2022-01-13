@@ -1,3 +1,3 @@
 ## Dot Files
 
-My configs worth holding onto.
+My lit configs
