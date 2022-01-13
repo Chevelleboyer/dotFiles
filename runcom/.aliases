@@ -1,5 +1,20 @@
-alias gs="git status"
-alias pp="pwd|pbcopy"
+# Git
 alias ga="git add"
+alias gb="git branch"
 alias gc="git commit"
+alias gch="git checkout"
+alias gs="git status"
 alias gp="git push"
+
+# System
+alias gh="history | grep"
+alias pp="pwd|pbcopy"
+
+# MySql
+alias start_sql="/usr/local/bin/mysql.server start"
+alias stop_sql="/usr/local/bin/mysql.server stop"
+alias restart_sql="/usr/local/bin/mysql.server restart"
+
+# Qorvo
+alias stop_gp="launchctl unload /Library/LaunchAgents/com.paloaltonetworks.gp.pangp*"
+alias start_gp="launchctl load /Library/LaunchAgents/com.paloaltonetworks.gp.pangp*"
